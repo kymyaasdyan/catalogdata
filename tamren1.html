@@ -1,0 +1,10 @@
+import requests
+from bs4 import Beautifulsope 
+url = 'https://catalog.data.gov/dataset '
+response = requests.get(url)
+soup = Beautifulsope (response.text 'html.parser')
+for item in soup.find-all ('div' = class = 'visually-hidden-focusable')
+      print(view.text)
+
+
+      
